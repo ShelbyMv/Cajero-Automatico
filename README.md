@@ -41,8 +41,11 @@ Mejorar la seguridad de autenticación.
 📁 Proyecto-Cajero-Automatico
 │
 ├── index.html  (Interfaz del cajero automático)
+
 ├── styles.css  (Estilos y animaciones)
+
 ├── script.js   (Lógica de la aplicación)
+
 └── README.md   (Descripción del proyecto)
 
 📦 Instalación
