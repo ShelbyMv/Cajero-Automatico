@@ -39,6 +39,7 @@ Mejorar la seguridad de autenticación.
 📂 Estructura del Proyecto
 
 📁 Proyecto-Cajero-Automatico
+
 │
 ├── index.html  (Interfaz del cajero automático)
 
