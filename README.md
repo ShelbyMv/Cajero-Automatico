@@ -49,11 +49,7 @@ Mejorar la seguridad de autenticación.
 
 └── README.md   (Descripción del proyecto)
 
-📦 Instalación
 
-Clona el repositorio:
-
-   git clone https://github.com/tu-usuario/Proyecto-Cajero-Automatico.git
 
 Abre el archivo index.html en tu navegador.
 
