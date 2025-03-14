@@ -1,1 +1,41 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automático</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="registro" class="registro">
+        <h1>Registro de Usuario 📝</h1>
+        <input type="text" id="nuevoUsuario" placeholder="Nuevo Usuario" />
+        <br><br>
+        <input type="password" id="nuevoPin" placeholder="PIN (4 dígitos)" maxlength="4" />
+        <br><br>
+        <button onclick="registrarUsuario()">Registrar</button>
+        <p id="registroMensaje"></p>
+
+        <h2>Iniciar Sesión 🔐</h2>
+        <input type="text" id="usuarioLogin" placeholder="Usuario" />
+        <br><br>
+        <input type="password" id="pinLogin" placeholder="PIN" maxlength="4" />
+        <br><br>
+        <button onclick="iniciarSesion()">Iniciar Sesión</button>
+        <p id="loginMensaje"></p>
+    </div>
+
+    <div id="cajero" class="cajero" style="display:none;">
+        <h1>Cajero Automático 🏧</h1>
+        <p>Saldo disponible: <span id="saldo">1000</span> dólares</p>
+        <input type="number" id="cantidad" placeholder="Cantidad a retirar" />
+        <br>
+        <button onclick="retirarDinero()">Retirar</button>
+        <p id="mensaje"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
